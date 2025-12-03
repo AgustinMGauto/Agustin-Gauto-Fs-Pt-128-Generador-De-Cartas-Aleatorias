@@ -12,3 +12,10 @@ body{
     margin-top: 150px;
 }
 
+.icono_de_arriba,.icono_de_abajo{
+    font-size: 75px;
+}
+
+.card-text{
+    font-size: 100px;
+}
