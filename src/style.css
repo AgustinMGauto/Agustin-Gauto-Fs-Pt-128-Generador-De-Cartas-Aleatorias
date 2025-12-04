@@ -4,12 +4,13 @@
 }
 
 body{
-    background: rgb(123, 218, 34);
+    background: rgb(43, 122, 79);
 }
 
 .card{
     margin: auto;
     margin-top: 150px;
+    font-family: 'Playfair Display', serif;
 }
 
 .icono_de_arriba,.icono_de_abajo{
@@ -18,4 +19,12 @@ body{
 
 .card-text{
     font-size: 100px;
+}
+
+.rojo{
+    color: red;
+}
+
+.btn{
+    margin-left: 350px;
 }
