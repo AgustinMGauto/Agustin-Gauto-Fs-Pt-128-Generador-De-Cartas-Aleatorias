@@ -29,5 +29,6 @@ const clasecard = document.querySelector(".card")
 
 if (SimboloCarta === "♦" || SimboloCarta === "♥"){clasecard.classList.add("rojo")} else {clasecard.classList.remove("rojo")}
 
-
 };
+
+setInterval(myClickFunction, 10000)
