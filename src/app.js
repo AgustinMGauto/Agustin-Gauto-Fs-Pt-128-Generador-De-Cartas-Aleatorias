@@ -29,6 +29,20 @@ const clasecard = document.querySelector(".card")
 
 if (SimboloCarta === "♦" || SimboloCarta === "♥"){clasecard.classList.add("rojo")} else {clasecard.classList.remove("rojo")}
 
+
+
+
+const inputAltura = document.querySelector("#floatingInput");
+const valorInputAltura = inputAltura.value;
+
+const inputAncho = document.querySelector("#Ancho_Input")
+const ValorInputAncho = inputAncho.value;
+
+const alturacarta = document.querySelector(".card")
+alturacarta.style.width = ValorInputAncho + "px";
+alturacarta.style.height = valorInputAltura + "px";
+
 };
+
 
 setInterval(myClickFunction, 10000)
